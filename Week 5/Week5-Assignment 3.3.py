@@ -1,4 +1,4 @@
-Assignment 3.3
+# Assignment 3.3 Question
 
 # Write a program to prompt for a score between 0.0 and 1.0. If the score is out of range, print an error. 
 # If the score is between 0.0 and 1.0, print a grade using the following table:
@@ -26,5 +26,5 @@ if (0.0 <= s <= 1.0):
   elif (s < 0.6):
     print ("F")
 else:
-    print ("Error!")
+    print ("Error! Enter A Valid Score")
     quit()
